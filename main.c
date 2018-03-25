@@ -28,10 +28,7 @@ int main ()
 	  sur_charge = 0.20;
 	  sur_charge = (amount + amount1) * sur_charge;
 
-
-
-
-	}
+      }
       else
 	{
 	  printf ("enter invalid unit !!!");
@@ -67,6 +64,7 @@ int main ()
     }
 
   total = amount + amount1 + sur_charge;
+	
   printf ("monthly Charge : %.2f", total);
   return 0;
 }
